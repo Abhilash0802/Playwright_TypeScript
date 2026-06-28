@@ -51,10 +51,12 @@ console.log(num1===num2) // false ( compares both the values and the data types)
 // logical Operators (&&, ||, !) --> returns a bollean value (true or false).worked betweeen boolean variables.
 
 
-
-
-
-
+//  b1         b2       b1 && b2         b1 || b2         !b1
+//---------------------------------------------------------------------
+// true      true       true             true             false
+// true      fasle      false            true             false
+// false     true       false            true             true
+// false     false      false            false            true
 
 
 
