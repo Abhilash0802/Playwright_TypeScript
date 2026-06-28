@@ -32,3 +32,6 @@ Built-in Reporters: Provides various report formats like HTML, JSON, JUnit, and 
 supported language.
 3) Tracing(Trace Viewer): Captures screenshots, records videos, retries flaky tests, and logs steps automatically.
 						Capture all the information to investigate the test failure.
+
+
+						

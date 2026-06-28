@@ -19,9 +19,6 @@ git push -u origin main
 
 
 
-
-
-
 QA1: Explain the difference between JavaScript dynamic typing and TypeScript static typing?
 
 “JavaScript is a dynamically typed language, meaning variable types are determined at runtime. 

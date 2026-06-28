@@ -11,7 +11,6 @@ console.log(typeof(age)); // Output: string
 console.log(age); // output: twentyfive
  */
 
-
 let num1 = "5"
 let num2 = 10
 

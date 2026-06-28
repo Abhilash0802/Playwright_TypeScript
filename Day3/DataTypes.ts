@@ -101,5 +101,3 @@ let result: number = Sum(5, 10);
 console.log(result);
 
 
-
-

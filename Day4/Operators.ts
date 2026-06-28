@@ -60,5 +60,3 @@ console.log(num1===num2) // false ( compares both the values and the data types)
 
 
 
-
-
