@@ -1,0 +1,27 @@
+
+QA1: Explain the difference between JavaScript dynamic typing and TypeScript static typing?
+
+“JavaScript is a dynamically typed language, meaning variable types are determined at runtime. 
+You can assign any type of value to a variable without declaring its type, and it can change later.
+
+let value = 10;       // number
+value = "Hello";      // now it's a string
+value = true;         // now it's a boolean
+console.log(value);   // Output: true
+
+Explanation:
+JavaScript allows value to change types freely. There’s no error until runtime, which can lead to unexpected bugs.
+
+TypeScript, on the other hand, is statically typed, meaning types are checked at compile time.
+You must declare variable types, and the compiler catches type errors before the code runs.”
+
+let value: number = 10;
+value = "Hello"; // ❌ Error: Type 'string' is not assignable to type 'number'
+
+Explanation:  
+TypeScript enforces type safety before execution. It prevents assigning a string to a number variable, catching errors early.
+
+QA2: what is the difference between == & === ?
+
+
+
