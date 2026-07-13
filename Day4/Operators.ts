@@ -1,4 +1,4 @@
-let a:number = 10, b:number = 40;
+//let a:number = 10, b:number = 40;
 
 // Arthmetic Operators (+, -, *, /, %, **)
 /* 
@@ -58,7 +58,43 @@ console.log(num1===num2) // false ( compares both the values and the data types)
 // false     true       false            true             true
 // false     false      false            false            true
 
+/* let b1:boolean = true, b2:boolean = false;
+
+console.log("logical AND:", b1 && b2 ) // False
+console.log("logical OR:", b1 || b2) // True
+console.log("logical NOT:", !b1)  // False
+ */
 
 
+// Increment and Decrement Operators (++,--) --> used to increase or decrease the value of a variable by 1.
 
+// Post‑increment (a++) → returns old value, then increments.
 
+// let a:number = 10, b:number = 20;
+
+/* console.log("Increment:", a++) // Increment: 10
+console.log("Decrement:", b--) // Decrement: 20
+console.log(a); // 11
+console.log(b); // 19 */
+
+// Pre-increment → increments first, then returns the new value.
+
+/* console.log(++a); // 12
+console.log(--b); //18 
+*/
+
+/* let res:number = a++ +b; // ( +,-,*,/,%,**) -- post
+console.log(res); // 30
+console.log(a); // 11
+ */
+
+/* let res:number = ++a +b; // ( +,-,*,/,%,**) -- pre
+console.log(res); // 31
+console.log(a); // 11
+ */
+
+/* Ternary operator or conditional operator( condition ? true : false) --> used to evaluate a condition
+ and return on e of two values based on whether the the condition is true or false. */
+
+ // syntax-- ?:
+// condition ? res1 : res2
