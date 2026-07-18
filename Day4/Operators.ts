@@ -94,7 +94,30 @@ console.log(a); // 11
  */
 
 /* Ternary operator or conditional operator( condition ? true : false) --> used to evaluate a condition
- and return on e of two values based on whether the the condition is true or false. */
+ and return one of two values based on whether the the condition is true or false. */
 
- // syntax-- ?:
+ // syntax:
 // condition ? res1 : res2
+
+//Example1: Age eligibility check
+
+/*
+let age:number = 20;
+let eligibilty:string = age>=18 ? "Adult" : "Minor";
+console.log(eligibilty);  // Adult
+*/
+
+//Example2: Marks eligibility check -- Inline Assignment
+/*
+let score:number = 75;
+let res:string = score>=50 ? "pass" : "Fail";
+console.log(res); // pass
+*/
+
+//Example3: Marks Nested Ternary
+
+/*
+let marks:number = 90;
+let result:string = marks>=90 ? "A+" : marks>=80 ? "A" : marks>=70 ? "B" : marks>=60 ? "C" : "Fail";
+console.log(result); // A+
+*/
