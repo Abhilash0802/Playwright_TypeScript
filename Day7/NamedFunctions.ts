@@ -82,7 +82,7 @@ console.log (display(2, 45,67)); // 4
 console.log (display("hi","Hello", true)); // 3
 
  */
-// Example 6: Named function with rest parameters with different number of type parameters.
+// Example 6: Named function with rest parameters with different count of type parameters.
 /* 
 
 function display(...args:(number | string | boolean )[])
@@ -153,11 +153,15 @@ greet("Jhon", 25) // Hello Jhon, you are 25 years old and you live in Unknown lo
 // Example 7.1
 
 /* 
-function add(x:number, y:number = 10):number // y has a default value 10
+function value (x:number, y:number = 10):void // y has a default value 10
+
 {
-    return x * y;
+    let multiply:number = x * y  
+    console.log(multiply)
 }
-
-console.log(add(7)) // 70
-
+    
+value(7,20) // 140
+value(7) // 70, since y takes default value of 10
  */
+
+

@@ -43,5 +43,10 @@ TypeScript enforces type safety before execution. It prevents assigning a string
 
 QA2: what is the difference between == & === ?
 
+QA: Expalin the optional, rest and default parameters in typecript?
 
+Optional parameters:  Parameters that may or may not be provided, marked with ?
 
+Rest parameters: Allow a function to accept an indefinite number of arguments as an array.
+
+Default parameters: Allow a function to have default values for parameters if no value is provided.
