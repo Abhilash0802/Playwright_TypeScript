@@ -63,3 +63,10 @@ while (num>= 1)
 
 
 
+/*
+Use while when you want to check the condition before execution.
+Use do-while when you need the loop to run at least once. 
+Use for when you know how many times the loop should run. 
+Use break to stop a loop early.
+Use continue to skip an iteration and proceed to the next one.
+*/
