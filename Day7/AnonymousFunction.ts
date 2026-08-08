@@ -35,11 +35,13 @@ printmessage("Hello, welcome to Anonymous function with parameters and no return
  */
 
 // Example 3: Anonymous function with parameters and return value
-
+/* 
 let addnumbers = function(x:number,y:number):number
 {
     return x+y
 }
 let result= addnumbers(10,20)
 console.log("Result=", result)
+
+ */
 
