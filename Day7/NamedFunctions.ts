@@ -111,8 +111,9 @@ for (let i=0; i<args.length; i++)
   console.log(`numbers:${numcount}, strings:${strcount}, booleans:${boolcount}`)
 
 }
+  
 display(2,"Hello", true,false,"RAM",78,98);
- */
+*/
 
 
 // Example 7  : Named function with optional parameters.
